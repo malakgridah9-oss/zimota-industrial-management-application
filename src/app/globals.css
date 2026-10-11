@@ -1,0 +1,16 @@
+@import "tailwindcss";
+
+:root {
+  --zimota-red: #b5121b;
+  --zimota-dark: #111111;
+}
+
+body {
+  font-family: "Inter", "Segoe UI", system-ui, -apple-system, Roboto, Arial, sans-serif;
+}
+
+@media print {
+  .no-print { display: none !important; }
+  body { background: white !important; }
+  .print-area { box-shadow: none !important; border: none !important; margin: 0 !important; }
+}
